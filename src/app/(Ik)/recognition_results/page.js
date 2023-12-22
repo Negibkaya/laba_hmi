@@ -44,7 +44,7 @@ export default function Results() {
                     </div>
                     <div className="ml-4 flex-shrink-0">
                       <a
-                        href="#"
+                        href="/details"
                         className="font-medium text-indigo-600 hover:text-indigo-500"
                       >
                         Подробнее
@@ -92,7 +92,7 @@ export default function Results() {
                     </div>
                     <div className="ml-4 flex-shrink-0">
                       <a
-                        href="#"
+                        href="/details"
                         className="font-medium text-indigo-600 hover:text-indigo-500"
                       >
                         Подробнее

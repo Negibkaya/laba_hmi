@@ -62,9 +62,12 @@ export default function MainForm() {
       </div>
 
       <div className="my-8 text-center">
-        <button className="bg-indigo-500 text-white py-2 px-4 rounded-full hover:bg-indigo-400">
+        <a
+          href="/upload_data"
+          className="bg-indigo-500 text-white py-2 px-4 rounded-full hover:bg-indigo-400"
+        >
           Начать анализ
-        </button>
+        </a>
       </div>
     </main>
   );

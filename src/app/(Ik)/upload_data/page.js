@@ -88,8 +88,8 @@ export default function ImageUpload() {
           </label>
 
           <div className="flex justify-center mt-4">
-            <button
-              type="button"
+            <a
+              href="/recognition_results"
               className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               <svg
@@ -106,8 +106,8 @@ export default function ImageUpload() {
                   d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
                 ></path>
               </svg>
-              Загрузить
-            </button>
+              Начать обработку
+            </a>
           </div>
         </div>
       </div>
